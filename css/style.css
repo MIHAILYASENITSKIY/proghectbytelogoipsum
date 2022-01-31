@@ -1,0 +1,175 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   font-weight: normal;
+}
+
+body {
+   font-family: DM Sans, sans-serif;
+}
+
+.header, .footer {
+   background-color: rgba(255, 113, 67, 0.27);
+   padding: 38px 0px 0px 48px;
+}
+
+.header__flex, .footer__flex, .subscribe, .addres, .prise{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.container {
+   max-width: 1070px;
+   margin: 0 auto;
+}
+
+.nav {
+
+}
+
+.nav__li {
+   display: inline-block;
+}
+
+.nav__li:not(:first-of-type) {
+   margin-left: 49px;
+}
+
+.nav__link {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 15px;
+   line-height: 20px;
+   letter-spacing: -0.468947px;
+   color: #19191B;
+   text-decoration: none;
+}
+
+.nav__link:hover {
+   color: black;
+   transition: 300ms;
+}
+
+.button {
+   width: 212px;
+   height: 60px;
+   font-family: DM Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 17px;
+   line-height: 22px;
+   text-align: center;
+   letter-spacing: -0.531474px;
+   color: #FFFFFF;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.button__orange {
+   background: #FF7143;
+}
+
+.button__orange :hover {
+   background: #f67c53;
+   transition: 500ms;
+}
+
+.about{
+   margin: 105px auto 85px;
+}
+
+h1 {
+   font-style: bold;
+   font-size: 80px;
+   line-height: 77px;
+   letter-spacing: -2.5px;
+   color: #19191B;
+   max-width: 467px;
+   margin-bottom: 30px;
+}
+
+p {
+   font-style: regular;
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: -0.63px;
+   color: #19191B;
+   max-width: 467px;
+   margin-bottom: 50px;
+}
+
+.button__blue {
+   background: #5454D4;
+}
+
+.button__blue :hover {
+   background: #9696db;
+   transition: 500ms;
+}
+
+.button__white {
+   border: 1px solid #5454D4;
+   color: #5454D4;
+   background: #FFFFFF;
+}
+
+.button__white :hover {
+   background: #ddd5d5;
+   transition: 500ms;
+}
+
+.content {
+   margin: 224px 179px 38px 171px;
+}
+
+.title {
+   font-style: Bold;
+   font-size: 50px;
+   line-height: 88%;
+   text-align: left;
+   vertical-align: top;
+   letter-spacing: -1.56px;
+   fill: solid #19191B
+}
+
+.addres {}
+
+.prise {}
+
+.block {
+   max-width: 330px;
+   height: 441px;
+   border: 1px solid black;
+   border-radius: 10px;
+   margin: 110px 10px 130px 10px;
+}
+
+.footernav {
+   
+}
+
+.footernav__li {
+   display: inline-block;
+}
+
+.footernav__li:not(:first-of-type) {
+   margin-left: 49px;
+}
+
+.footernav__link {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 15px;
+   line-height: 20px;
+   letter-spacing: -0.468947px;
+   color: #19191B;
+   text-decoration: none;
+}
+
+.footernav__link:hover {
+   color: black;
+   transition: 300ms;
+}
